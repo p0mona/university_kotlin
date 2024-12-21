@@ -174,7 +174,6 @@ fun main() {
         println("Test t.draw() OK")
     }
 
-    // Тесты для getColorShape()
     if (p.getColorShape() == "blue" &&
         l.getColorShape() == "red" &&
         c.getColorShape() == "green" &&
@@ -186,9 +185,8 @@ fun main() {
         println("Test getColorShape() FAILED")
     }
 
-    // Тесты для setIsFilled()
-    p.setIsFilled(true)  // Устанавливаем filled для p
-    c.setIsFilled(false) // Устанавливаем filled для c
+    p.setIsFilled(true)
+    c.setIsFilled(false)
 
     if (p.getIsFilled() && !c.getIsFilled()) {
         println("Test setIsFilled() OK")
@@ -196,7 +194,6 @@ fun main() {
         println("Test setIsFilled() FAILED")
     }
 
-    // Тесты для setColorShape()
     c.setColorShape("blue")
     r.setColorShape("purple")
     t.setColorShape("pink")
@@ -210,10 +207,9 @@ fun main() {
         println("Test setColorShape() FAILED")
     }
 
-    // Тесты для getIsFilled()
-    if (p.getIsFilled() && // p был изменен на заполненный
-        !c.getIsFilled() && // c был изменен на незаполненный
-        !t.getIsFilled() // t изначально не заполнен
+    if (p.getIsFilled() &&
+        !c.getIsFilled() &&
+        !t.getIsFilled()
     ) {
         println("Test getIsFilled() OK")
     } else {

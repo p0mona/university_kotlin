@@ -260,28 +260,25 @@ fun testCrud(repository: Crud<Person>) {
     repository.create(person1)
     repository.create(person2)
 
-    // Тест добавления
+
     assert(repository.findAll().size == 2) { "Add Person Test Failed: Incorrect number of persons in repository." }
     assert(repository.read(1) == person1) { "Add Person Test Failed: Person 1 not found in repository." }
     assert(repository.read(2) == person2) { "Add Person Test Failed: Person 2 not found in repository." }
 
-    // Тест чтения
     val readPerson = repository.read(1)
     assert(readPerson != null && readPerson.id == 1 && readPerson.name == "Katrin") { "Read Person Test Failed: Incorrect person data." }
 
-    // Тест обновления
     val updatedPerson = person1.copy(name = "Johnathan", age = 31)
     repository.update(updatedPerson)
 
     val readUpdatedPerson = repository.read(1)
     assert(readUpdatedPerson != null && readUpdatedPerson.name == "Johnathan" && readUpdatedPerson.age == 31) { "Update Person Test Failed: Person data not updated correctly." }
 
-    // Тест удаления
+
     repository.delete(1)
     assert(repository.read(1) == null) { "Delete Person Test Failed: Person not deleted correctly." }
     assert(repository.findAll().size == 1) { "Delete Person Test Failed: Incorrect number of persons in repository after deletion." }
 
-    // Тест получения всех людей
     val allPersons = repository.findAll()
     assert(allPersons.size == 1 && allPersons[0].id == 2) { "Find All Persons Test Failed: Incorrect data." }
 
