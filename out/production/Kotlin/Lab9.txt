@@ -1,0 +1,20 @@
+Please model the following employment structure in a company using a class hierarchy:
+- An employee has a first name, last name, and salary, and a toString() method that
+prints information about the class name and attribute values
+- A full-time employee is an employee who has an employment contract for a
+fixed or indefinite period of time
+- A manager is a full-time employee who manages a specific department and
+receives an additional bonus
+- A director is a manager
+- An associate is an employee who has a contract for services or a contract for
+
+specific work
+- A permanent associate is an associate
+- A periodic associate is an associate who is employed for a certain
+
+period.
+Attributes should be private or access control should be applied using get/set.
+
+Each class has a toString() method that uses a method from the base class.
+
+Each class has at least two constructors.

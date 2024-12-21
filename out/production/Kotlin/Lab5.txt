@@ -1,0 +1,18 @@
+1. For the Line class, please write an extension function Line.length(), which will
+calculate the length of a segment.
+1 point
+2. a) For the Point class, please provide default values ​​(0,0) in the constructor.
+b) Please call the Point class constructor with the reversed order of parameters (y,x)
+using their names explicitly.
+3. For the Student class, please write an extension function that converts
+a numerical grade to a text description (e.g. 4.5 -> “good+”) using the
+when construction.
+4. Please write regular functions (overloaded):
+- add (Int, Int)
+- add (Double, Double)
+- add (Fraction, Fraction)
+and check which of them will be called in the following cases:
+- add (1, 2)
+- add (1.0, 2.0)
+- add (Fraction(1,2), Fraction(3,4))
+- add (1, 2.0)

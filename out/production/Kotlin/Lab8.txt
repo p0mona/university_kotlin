@@ -1,0 +1,18 @@
+1. Please write a program that prints prime numbers in lines. The first
+line should print prime numbers <= 2, and each subsequent line should print numbers smaller
+than or equal to the next power of 2 (4, 8, 16, 32…). If the number 13 appears
+among the numbers found, it should not be printed (continue should be used). If the number 11057 appears
+among the numbers found, the loop execution should be interrupted (break with a label should be
+used). 
+2. Please create an Animal interface that has the speak() and eat() methods
+returning values ​​of type String. Then, please create three classes of any animals
+that implement this interface and both methods. 
+3. Please modify the Student class so that it has three constructors:
+a. the main constructor, which accepts only the student's name as a parameter. The student should receive the next generated index number and
+a grade of 3.0
+b. an additional constructor that takes the student's name and
+the index number as a parameter, and the student receives a grade of 3.0
+c. an additional constructor that takes the student's name, index number
+and grade as a parameter.
+Please use the init block and the chain of constructors called using
+this.

@@ -1,0 +1,14 @@
+1. Please create a Group class that stores a list of students in a Map collection,
+where the keys are the student index numbers. The class should have two functions
+that return a student based on the index number:
+a. getStudentByIDorNull, which returns null if there is no student
+with the given index
+b. getStudentByID, which does not return null but throws an exception
+NoSuchElementException
+Please test the operation of both functions, handling both nullable types (using
+the if, ?., ?: and !! statements), as well as exceptions
+2. Please create a generic display function that will display a numbered
+list of elements of any type T .
+3. Please modify the Group class so that it can store a group
+of objects of any type. Please place the display function written in the previous point
+in it so that it displays a list of objects stored in the Group class.

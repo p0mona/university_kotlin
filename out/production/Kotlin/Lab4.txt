@@ -1,0 +1,19 @@
+1. Please create a program that accepts arguments from the command line, which will act as
+a simple calculator that allows you to perform basic calculations
+such as addition (+), subtraction (-), multiplication (*), division (/), exponentiation
+(pow) and square root (sqrt). The way to invoke it can be as follows:
+kotlin calculator + 3.7 4.1
+The result returned for this example is 7.8
+Please implement throwing appropriate exceptions informing about
+errors such as division by zero, square root of a negative number or incorrect
+number of parameters.
+2. Please modify the program from the previous classes concerning students in such a way that the Student class stores the index number, the student's name and surname
+and the grade. In the constructor, appropriate values ​​should be passed. Please
+create accessors for properties in the Student class. The index number should be
+read-only, the name and surname can be changed, while the grade can be
+changed, but taking into account that the values ​​passed can only be from the set
+{2, 3, 4, 5}. Please create a Group class that will store a map,
+in which the keys will be index numbers and the values ​​will be objects of the Student class. When
+adding a student to the group, please check if there is already a student with such
+index and if necessary raise an exception. In the group class, please create a property
+average, which will dynamically calculate the average grade of students in the group.

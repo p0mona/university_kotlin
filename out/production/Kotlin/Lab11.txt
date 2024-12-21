@@ -1,0 +1,15 @@
+Please implement a simple application that creates a “Database” that stores objects in a
+collection. Please implement basic CRUD operations (saving an object to the
+database, reading an object (with search), updating an object, and deleting an object).
+
+The application should have a text menu that allows you to use it.
+
+I leave the decision of what data will be stored in the application to you.
+
+The application should contain the following elements of object-oriented programming:
+- at least 3 classes
+- interface and/or abstract class
+- inheritance
+- polymorphism
+- composition
+The application should have a user interface that allows you to perform CRUD operations (e.g. entering and displaying data from the database).

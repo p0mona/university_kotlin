@@ -1,0 +1,16 @@
+1. Let's imagine that we are implementing a graphics program that allows us to create simple
+drawings composed of basic geometric shapes. The user can drag
+available shapes from the menu onto the workspace, where they can adjust their size and
+position. Please create a hierarchy consisting of the following elements:
+- Shape interface, which declares the draw(), erase() and
+transform() methods
+- classes implementing this interface: Point, Line, Circle, Rectangle, Triangle …
+- Canvas class, which manages a collection of Shape class objects and
+draws these objects in the Paint() method
+
+Of course, we will not implement the above operations using the GUI, but
+we will signal their operation by printing appropriate text messages.
+
+2. Please modify the class structure from the previous example so that its
+root is now not the interface, but an abstract class that stores information about the color
+of the object being drawn and its fill (yes/no). These properties can be modified using getters and setters. You also need to modify the draw() functions to display additional information.

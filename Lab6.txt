@@ -1,0 +1,11 @@
+1. Using the Student class from the previous exercises, please implement the student's grade as an enumerated type Grade.
+
+2. Please create a function that calculates the following grade statistics for students in
+a group:
+a. minimum
+b. maximum
+c. average
+d. standard deviation
+The function should return an appropriately defined data class object that
+will be subject to destructuring, e.g.
+val (min, max, sr, d) = stat(students)

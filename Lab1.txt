@@ -1,0 +1,33 @@
+Task 1
+Please create a Point class representing a point on a plane. The class should have
+a constructor, private fields representing the coordinates of the point, and public methods:
+● move - allows you to move a point by a vector (dx, dy)
+● toString - provides a text representation of the object in the form of “Point(x,y)”
+, where x and y
+are specific coordinates of the point
+● getX, setX, getY, and setY
+Please create 3 instances of the Point class with random coordinates, display them, then
+move the points by the same random vector and display them again.
+Please create a Line class representing a line segment on a plane. The class should have a
+constructor, private fields representing the coordinates of the start and end of the line, and
+public methods:
+● toString - provides a text representation of the object in the form of “Line(x1, y1, x2, y2)”
+,
+where x1, y1, x2, and y2 are the specific coordinates of the ends of the line
+● getX1, setX1, getY1 and setY1, getX2, setX2, getY2, and setY2
+Please create eight instances of the Line class with such coordinates that they create a drawing
+of an open envelope. Please display the objects.
+Please create a Student class representing a student. The class should have a constructor and
+private fields:
+● firstName - first name
+● lastName - last name
+● id - index number
+and methods:
+● getFisrtName, setFirstName, getLastName, setLastName, getId
+● toString - provides a text representation of the object in the form of “Student(firstName,
+lastName, Id)”
+Please create a list of 5 different students and display it.
+For each class, please make its documentation in UML.
+As a solution, please attach Kotlin files (kt), graphic files with UML diagrams and
+a pdf file with the whole thing (code + diagrams). In the file names, please include the name of the task and
+the first and last name.

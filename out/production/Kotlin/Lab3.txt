@@ -1,0 +1,10 @@
+1. Please add a division by zero error handling exception to the fraction program from the previous
+lab. Please use the appropriate exception type and a comment about the error.
+
+2. Please write a program that stores and displays a list of students (class from
+task 1). Please use two types of lists: List and MutableList.
+
+3. Please add a function (or method) to the fraction program from the previous
+lab that will add any number of fractions.
+
+Please use vararg.

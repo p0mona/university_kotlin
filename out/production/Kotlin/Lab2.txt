@@ -1,0 +1,15 @@
+Task 2
+6 points
+Please create a Fraction class representing a rational fraction. The class
+should have a constructor that allows you to specify the numerator and denominator, private fields
+representing the numerator and denominator, and public methods:
+● add - adding fractions
+● sub - subtracting fractions
+● mul - multiplying fractions
+● div - dividing fractions
+● inv - reversing a fraction
+● toString - provides a text representation of the object in the proper form “(a b/c)”
+,
+where a is an integer, b and c are the numerator and denominator of the fraction,
+and private method(s) that implement the algorithm(s) needed to reduce
+fractions.
